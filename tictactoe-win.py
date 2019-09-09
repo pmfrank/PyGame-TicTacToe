@@ -5,6 +5,10 @@ from win import Win
 from graphics import Graphics
 import pygame as pg
 
+'''
+This is the version of the game coverted to a graphical game
+Uses all the classes (Game Engine) plus the Graphics class
+'''
 
 def main(board, players, win, game):
     game.create_game_board()

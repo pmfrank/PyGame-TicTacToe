@@ -1,6 +1,10 @@
 import pygame as pg
 
 class Graphics():
+    '''
+    This class handles all the graphics for PyGame
+    '''
+
     def __init__(self):
         pg.init()
         self._size = (400,400)
@@ -49,5 +53,5 @@ class Graphics():
         pg.display.flip()
 
     def clear_notice(self):
-        pg.draw.rect(self._screen,self._WHITE,(0,350,399,399))
-        pg.display.flip()
+        eraser = pg.draw.rect(self._screen,self._WHITE,(0,350,399,399))
+        pg.display.update(eraser)

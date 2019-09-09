@@ -1,4 +1,10 @@
 class Board():
+    '''
+    This class controls the game board and keeps track of 
+    moves made. It also displays the board if played in the
+    terminal
+    '''
+
     def __init__(self):
         self._game_area =[[0,0,0],
                         [0,0,0],

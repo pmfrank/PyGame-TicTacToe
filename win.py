@@ -1,4 +1,7 @@
 class Win():
+    '''
+    This class covers the Win or Tie conditions of the game.
+    '''
     def __init__(self, board):
         self._board = board
 

@@ -3,6 +3,11 @@ from board import Board
 from player import Player
 from win import Win
 
+'''
+This is the non-graphical version based off sentdex orginial YouTube tutoral
+Change to class objects
+'''
+
 def main(board, players, win):
 
     board.show_board()
